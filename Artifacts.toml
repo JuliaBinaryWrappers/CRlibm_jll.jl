@@ -1,0 +1,115 @@
+[[CRlibm]]
+arch = "aarch64"
+git-tree-sha1 = "a9191999c82761282237b40f579bea8d6e652b36"
+libc = "glibc"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "f350747237370bdb2edbf1f54972404d27215ae9bc308855379629d85e378871"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.aarch64-linux-gnu.tar.gz"
+[[CRlibm]]
+arch = "aarch64"
+git-tree-sha1 = "2dd002bb309b89ae8305a966b004ac108ae23e0e"
+libc = "musl"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "8644306074d4c36e918e3674e8aadb813d5a08e8e6e73cc20aad6c97a47e1a6c"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.aarch64-linux-musl.tar.gz"
+[[CRlibm]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "c1151f1f15e79d15c0ec51e5dbcee88450369e30"
+libc = "glibc"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "29d742e7b01b2b34fda32ab2c394b7dc721eae1ef871295df543f66867db6834"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.armv7l-linux-gnueabihf.tar.gz"
+[[CRlibm]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5b90105f86d4ad47a60859faacb58c242ae863fc"
+libc = "musl"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "009d2ef7c77267b71582e259177eb02e5e425e1aeb207ddf6dd67a5c78ed31fb"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.armv7l-linux-musleabihf.tar.gz"
+[[CRlibm]]
+arch = "i686"
+git-tree-sha1 = "8b34d5828f8a7e9aac1f7533905a0e35e5c2cad9"
+libc = "glibc"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "8315008949cf5382446f32f691a407514d9be9aa272f2fb0a4a452972f186aab"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.i686-linux-gnu.tar.gz"
+[[CRlibm]]
+arch = "i686"
+git-tree-sha1 = "52986eecdb87197ae7b5c3d9415d381757e35908"
+libc = "musl"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "34b8a2dc8f284754cf9fcf9cc06893a8e3d68a2865c108a5cb954031ae98c840"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.i686-linux-musl.tar.gz"
+[[CRlibm]]
+arch = "i686"
+git-tree-sha1 = "c26a9a48939c474a3c7005129ff1fcbd3f3e1b39"
+os = "windows"
+
+    [[CRlibm.download]]
+    sha256 = "43c5548e0e22f1142680098349104fc6f41329d3cbd207a72d323cadf5a7cae8"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.i686-w64-mingw32.tar.gz"
+[[CRlibm]]
+arch = "powerpc64le"
+git-tree-sha1 = "706ecb39af7176ce58ba429edeea1aa356ad85fe"
+libc = "glibc"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "d01801d8fa9440d9cdd48f4fed49b8ad639c8e7f248e611a8cc3286b787a679a"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.powerpc64le-linux-gnu.tar.gz"
+[[CRlibm]]
+arch = "x86_64"
+git-tree-sha1 = "cf85461fa16415c0a68977cea42045009e51027f"
+os = "macos"
+
+    [[CRlibm.download]]
+    sha256 = "6e6c83eba0ffc8f89cf9065909e5140254f11e4a4c344298a56d5f448c4c5d7a"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.x86_64-apple-darwin.tar.gz"
+[[CRlibm]]
+arch = "x86_64"
+git-tree-sha1 = "7c2d46296e979637a7305edbec24e88941d4bc15"
+libc = "glibc"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "0757400926c3bc5445942a35a64b5bdd4109b04e31621437fb9a06b9eaa3cfbd"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.x86_64-linux-gnu.tar.gz"
+[[CRlibm]]
+arch = "x86_64"
+git-tree-sha1 = "44d90f1aa68f9eae626a78f9af903c8b81df7523"
+libc = "musl"
+os = "linux"
+
+    [[CRlibm.download]]
+    sha256 = "24ddd5652ab56d6b89d4b4a9fb663cb9c203257d2a6be0c1076efbc0be04c6cc"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.x86_64-linux-musl.tar.gz"
+[[CRlibm]]
+arch = "x86_64"
+git-tree-sha1 = "0359ab972f52eb13f82250dcb10de3a284adb5e6"
+os = "freebsd"
+
+    [[CRlibm.download]]
+    sha256 = "71ca53f41057d0fa1b90657754d94a194d65a55b0d5f76596c59431f515c985b"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.x86_64-unknown-freebsd.tar.gz"
+[[CRlibm]]
+arch = "x86_64"
+git-tree-sha1 = "6f2358166e6f6adcb69bc6fd694ca9ab5ce9f09c"
+os = "windows"
+
+    [[CRlibm.download]]
+    sha256 = "78952017f901597172a370cff1be14a449c1c7d64094b211a8d7636e05de06dd"
+    url = "https://github.com/JuliaBinaryWrappers/CRlibm_jll.jl/releases/download/CRlibm-v1.0.0+0/CRlibm.v1.0.0.x86_64-w64-mingw32.tar.gz"
